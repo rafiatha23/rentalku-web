@@ -1,0 +1,272 @@
+.color-base, .base-color{
+    color: #007a66;
+}
+.black-color{
+    color: black;
+}
+.button-base{
+    background-color: #007a66;
+    color: white;
+    border-radius: 20px;
+}
+.button-base-yello:hover{
+    background-color: #FFC700;
+    color: white;
+}
+.button-yellow{
+    background-color: #FFC700;
+    color: white;
+    border-radius: 20px;
+}
+.star-active{
+    color: #FFC700;
+}
+.nav-link{
+    color: #007a66 !important;
+    font-weight: bold;
+}
+#head{
+    height: 400px;
+}
+.nav-left{
+    color: gray !important;
+}
+.nav-left.active{
+    color: #007a66 !important;
+}
+.dropdown-menu.dropdown-menu-right.show{
+    background-color: #007a66;
+}
+.dropdown-menu>a.dropdown-item{
+    color: white;
+}
+.dropdown-menu>a.dropdown-item:hover{
+    background-color: #FFC700;
+}
+.head-box{
+    height: 100%;
+    position: relative;
+    padding-top: 100px;
+}
+.img-rectangle{
+    width: 100%;
+    position: absolute;
+    top: -150px;
+    z-index: -99;
+}
+.round-box{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+}
+.mobil{
+    position: absolute;
+    width: 200px;
+    border-radius: 50%;
+    bottom: -25%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#section-2{
+    color: black;
+}
+.btn-daftar{
+    border-radius: 20px;
+    background-color: #007a66;
+    color: white;
+}
+.btn-rental{
+    border-radius: 20px;
+    background-color: #FFC700;
+    color: white;
+}
+a{
+    color: white;
+}
+a:link{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+.box-border{
+    cursor: pointer;
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.25));
+}
+.textbox{
+    padding: 5px;
+}
+.img-box{
+    border-radius: 20px;
+    height: 150px;
+}
+.img-box > img{
+    border-radius: 20px;
+}
+.selengkapnya{
+    color: #007a66;
+}
+.selengkapnya:link{
+    color: #007a66;
+}
+.selengkapnya:hover{
+    color: #007a66;
+}
+#footer{
+    border-top: 1px solid #007a66 !important;
+}
+div#footer\ mt-2{
+    border-top: 1px solid #007a66 !important;
+}
+.label-produk{
+    color: #A0A0A0;
+}
+.price{
+    color: #FFC700;
+}
+.star{
+    color: #FFC700;
+}
+.input-style{
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #007a66;
+}
+.button-style{
+    background-color: #007a66;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+#chat{
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    cursor: pointer;
+    width: 250px;
+    filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.25));
+}
+.chat-bar{
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    color: #007a66;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #007a66;
+    background-color: white;
+}
+.chat-room{
+    background-color: white;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height:300px;
+}
+.chat-button{
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    cursor: pointer;
+    height: 40px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 250px;
+    background-color: #FFC700;
+    display: inline-block;
+    filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.25));
+    color: white;
+}
+.hidden{
+    display: none;
+}
+.notification{
+    background-color: #007a66;
+}
+.pesan{
+    border-bottom: 0.5px solid gray;
+    cursor: pointer;
+}
+.img-user-chat{
+    width: 50px;
+}
+.single-chat{
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    width: 250px;
+    filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.25));
+}
+.single-chat-bar{
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    color: #007a66;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #007a66;
+    background-color: white;
+}
+.single-chat-room{
+    background-color: white;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height:300px;
+    position: relative;
+}
+
+.input-message{
+    position: relative;
+    border: none;
+    border-top: 1px solid #007a66;
+    width: 100%;
+}
+.input-pesan{
+    width: 100%;
+    height: 50px;
+}
+.send-button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 50px;
+    border: none;
+    width: 50px;
+    background-color: white;
+    color: #007a66;
+}
+.input-pesan{
+    border: none;
+}
+.message{
+    background-color: hsl(170, 100%, 24%);
+    color: white;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    display: inline-block;
+    max-width: 80%; 
+    overflow-wrap: break-word;
+}
+.message-row{
+    display: flex;
+    
+}
+.message-own{
+    background-color: #FFC700;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 0px;
+}
+.own{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.back-btn{
+    cursor: pointer;
+}
+.image-chat-box{
+    width: 100px;
+}
